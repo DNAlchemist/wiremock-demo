@@ -1,0 +1,10 @@
+{
+  "request": {
+    "urlPattern": "(.*)/v2/sms/send(.*)",
+    "method" : "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName" : "sms_aero.json"
+  }
+}
