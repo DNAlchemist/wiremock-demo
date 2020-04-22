@@ -10,6 +10,6 @@
   },
   "response": {
     "status": 200,
-    "bodyFileName" : "buyPolicyProcess/sms_aero.json"
+    "bodyFileName" : "sms_aero.json"
   }
 }
