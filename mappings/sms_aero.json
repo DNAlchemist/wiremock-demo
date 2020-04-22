@@ -1,12 +1,7 @@
 {
   "request": {
     "urlPattern": "(.*)/v2/sms/send(.*)",
-    "method" : "GET",
-    "queryParameters" : {
-      "number" : {
-        "equalTo" : "+79776189588"
-      }
-    }
+    "method" : "GET"
   },
   "response": {
     "status": 200,
