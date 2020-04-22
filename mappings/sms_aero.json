@@ -1,10 +1,15 @@
 {
   "request": {
     "urlPattern": "(.*)/v2/sms/send(.*)",
-    "method" : "GET"
+    "method" : "GET",
+    "queryParameters" : {
+      "number" : {
+        "equalTo" : "+79776189588"
+      }
+    }
   },
   "response": {
     "status": 200,
-    "bodyFileName" : "sms_aero.json"
+    "bodyFileName" : "buyPolicyProcess/sms_aero.json"
   }
 }
