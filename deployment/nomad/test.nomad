@@ -61,7 +61,7 @@ job "smsaero-wiremock" {
       }
 
       service {
-        name = "smsaero"
+        name = "smsaero-wiremock"
         tags = [
           "api",
           "external-lb"
