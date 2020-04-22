@@ -61,7 +61,7 @@ job "smsaero-wiremock" {
       }
 
       service {
-        name = "kafka-reader"
+        name = "smsaero"
         tags = [
           "api"
         ]
