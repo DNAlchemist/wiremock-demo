@@ -63,7 +63,8 @@ job "smsaero-wiremock" {
       service {
         name = "smsaero"
         tags = [
-          "api"
+          "api",
+          "external-lb"
         ]
         port = "http"
       }
